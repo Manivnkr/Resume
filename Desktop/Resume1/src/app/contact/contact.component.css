@@ -1,0 +1,21 @@
+.timeline {
+    position: relative;
+    width: 95%;
+    border: 1px solid; 
+    color:rgb(153, 139, 139);
+
+}
+
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    
+}
+
+.timeline-box:nth-child(2n) {
+    left: 50%;
+}
+

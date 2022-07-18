@@ -1,0 +1,49 @@
+/*Experience*/
+
+.timeline {
+    position: relative;
+    width: 95%;
+    border: 1px solid; 
+    color:rgb(153, 139, 139);
+
+}
+
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 1px solid black;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 50%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: 110%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: blue;
+    z-index: 1;
+
+}
+
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -13%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:blue;
+    z-index: 1;
+}
+

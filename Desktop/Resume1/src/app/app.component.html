@@ -1,0 +1,18 @@
+
+<app-way (eventtriggered)="onnavigate($event)" ></app-way>
+<app-header  *ngIf="loaded==='Home'"></app-header>
+
+
+  <div class="container pull-left col-md-10" >
+  <app-about  *ngIf="loaded==='About'"></app-about>
+</div>
+
+
+        <app-skills *ngIf="loaded==='Skills'"></app-skills>
+        <app-experience *ngIf="loaded==='Experience'"></app-experience>
+        <app-projects *ngIf="loaded==='Projects'"></app-projects>
+        
+      
+        <div class="container pull-left col-md-10" >
+          <app-contact *ngIf="loaded==='Contact'"></app-contact>
+        </div>

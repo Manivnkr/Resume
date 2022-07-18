@@ -1,0 +1,83 @@
+.timeline {
+    position: relative;
+    width: 95%;
+    border: 1px solid; 
+    color:rgb(153, 139, 139);
+
+}
+
+.skills-display {
+    width: 70%;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-progress {
+    width: 10rem;
+    height: 4rem;
+    margin: 20px;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 2px 1px #b9b9b9;
+}
+
+/*.skill-progress>div{
+	border-radius: 20px 0 0 20px;
+	box-shadow: 1px 1px 5px 2px #98989882
+}*/
+
+.skill-name {
+    font-size: 15px;
+    color: white;
+    padding: 6px 0 10px 20px;
+
+}
+
+.skill-name span {
+    margin: 0;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ff5722;
+}
+
+
+.mb-teal {
+    background-color: #009688;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+.m-blue {
+    color: #2857a4;
+}
+
+/*Common Percent classes*/
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.eighty-five-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
+}
+.fifty-five-percent {
+    height: inherit;
+    width: 55%;
+}
